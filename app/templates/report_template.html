@@ -1,0 +1,16 @@
+
+<h1 style="text-align: center;">The Report</h1>
+
+<div style="text-align: right">
+  
+        <h5>Organization: {{ data['organization'] }}</h5>
+        <h5>Reported: {{ data['reported_at'] }}</h5>
+        <h5>Created: {{ data['created_at'] }}</h5>
+
+</div>
+
+<div style = "text-align: center; padding-top: 100px;">
+    {% for item in data['inventory'] %}
+        <h3>{{ item['name'] }} : {{ item['price'] }}</h3>
+    {% endfor %}
+</div>

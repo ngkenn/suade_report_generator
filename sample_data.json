@@ -1,0 +1,15 @@
+{
+    "organization": "Dunder Mifflin",
+    "reported_at": "2015-04-21",
+    "created_at": "2015-04-22",
+    "inventory": [
+        {
+            "name": "paper",
+            "price": "2.00"
+        },
+        {
+            "name": "stapler",
+            "price": "5.00"
+        }
+    ]
+}
