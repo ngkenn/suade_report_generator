@@ -11,8 +11,8 @@ To install required python packages, run:
 `pip install -r requirements.txt`
 
 ### Endpoints
-> http://127.0.0.1:5000/xml/<report_id>
-> http://127.0.0.1:5000/pdf/<report_id>
+`http://127.0.0.1:5000/xml/<report_id>`
+`http://127.0.0.1:5000/pdf/<report_id>`
 
 ### Run the app
 cd to the parent directory and enter the command:
@@ -22,5 +22,5 @@ cd to the parent directory and enter the command:
 In the parent directory, run:
 `python -m pytest`
 
-
-FLASK_APP=report_generator.py
+### Browser compatibility
+Tested on chrome. Funky jank is happening on firefox
